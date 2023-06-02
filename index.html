@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <h1>Book Store</h1>
+      </div>
+      <div class="dashboard"><h1>Dashboard</h1></div>
+      <div class="user-info">
+        <div class="modes">
+          <div class="light-mode active">
+            <i class="fa-solid fa-sun"></i>
+          </div>
+          <div class="dark-mode"><i class="fa-solid fa-moon"></i></div>
+        </div>
+        <div class="user-details">
+          <small class="hey">Hey</small>
+          <b>Seebi</b>
+          <small class="admin">Admin</small>
+          <img src="https://picsum.photos/id/111/100" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class="left-side">
+          <div class="menu-items">
+            <div class="menu-item active">
+              <i class="fa-solid fa-cube"></i>
+              <span>
+                <h3>dashboard</h3>
+              </span>
+            </div>
+            <div class="menu-item">
+              <i class="fa-solid fa-users"></i>
+              <span>
+                <h3>customers</h3>
+              </span>
+            </div>
+            <div class="menu-item">
+              <i class="fa-solid fa-clipboard-list"></i>
+              <span>
+                <h3>orders</h3>
+              </span>
+            </div>
+            <div class="menu-item">
+              <i class="fa-solid fa-chart-line"></i>
+              <span>
+                <h3>analytics</h3>
+              </span>
+            </div>
+            <div class="menu-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>
+                <h3>messages</h3>
+              </span>
+            </div>
+            <div class="menu-item">
+              <i class="fa-solid fa-list-check"></i>
+              <span>
+                <h3>products</h3>
+              </span>
+            </div>
+            <div class="menu-item">
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <span>
+                <h3>reports</h3>
+              </span>
+            </div>
+            <div class="menu-item">
+              <i class="fa-solid fa-gear"></i>
+              <span>
+                <h3>settings</h3>
+              </span>
+            </div>
+            <div class="menu-item">
+              <i class="fa-solid fa-plus"></i>
+              <span>
+                <h3>add product</h3>
+              </span>
+            </div>
+          </div>
+          <div class="logout">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <span>
+              <h3>logout</h3>
+            </span>
+          </div>
+        </div>
+        <div class="center">
+          <div class="top-boxes">
+            <div class="box">
+              <div class="text">
+                <div class="icon">
+                  <i class="fa-solid fa-chart-simple"></i>
+                </div>
+                <h3>total sales</h3>
+                <h1>$20,230</h1>
+              </div>
+              <div class="progress-circle">
+                <div class="circle-round sales">
+                  <svg>
+                    <circle cx="30" cy="30" r="25" />
+                    <circle cx="30" cy="30" r="25" />
+                  </svg>
+                </div>
+                <h4>80%</h4>
+              </div>
+            </div>
+            <div class="box">
+              <div class="text">
+                <div class="icon">
+                  <i class="fa-solid fa-chart-column"></i>
+                </div>
+                <h3>total expenses</h3>
+                <h1>$12,230</h1>
+              </div>
+              <div class="progress-circle">
+                <div class="circle-round expenses">
+                  <svg>
+                    <circle cx="30" cy="30" r="25" />
+                    <circle cx="30" cy="30" r="25" />
+                  </svg>
+                </div>
+                <h4>85%</h4>
+              </div>
+            </div>
+            <div class="box">
+              <div class="text">
+                <div class="icon">
+                  <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3>total income</h3>
+                <h1>$13,200</h1>
+              </div>
+              <div class="progress-circle">
+                <div class="circle-round income">
+                  <svg>
+                    <circle cx="30" cy="30" r="25" />
+                    <circle cx="30" cy="30" r="25" />
+                  </svg>
+                </div>
+                <h4>95%</h4>
+              </div>
+            </div>
+          </div>
+          <!-- --------------------------- -->
+          <div class="recent-orders">
+            <h3>recent orders</h3>
+            <div class="order-box">
+              <table>
+                <tr>
+                  <th>no.</th>
+                  <th>product name</th>
+                  <th>product number</th>
+                  <th>payment</th>
+                  <th>status</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>DJI Mavic Air 2</td>
+                  <td>15874523</td>
+                  <td>Credit-Card</td>
+                  <td>Shipping</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>DJI Mavic Air 2S</td>
+                  <td>15874863</td>
+                  <td>pending</td>
+                  <td>pending</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>DJI Inspire 1</td>
+                  <td>15965523</td>
+                  <td>Credit-Card</td>
+                  <td>Shipped</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>DJI Mavic 3 Classic</td>
+                  <td>12544523</td>
+                  <td>pending</td>
+                  <td>pending</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>DJI FPV</td>
+                  <td>15821623</td>
+                  <td>Debit-Card</td>
+                  <td>Shipped</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>DJI Inspire 2</td>
+                  <td>15879633</td>
+                  <td>Credit-Card</td>
+                  <td>Shipped</td>
+                </tr>
+              </table>
+              <br />
+              <small><a href="">See More</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <h3>Recent Updates</h3>
+          <div class="recent-updates">
+            <div class="update">
+              <div class="user-info">
+                <img src="https://picsum.photos/id/537/100" alt="" />
+              </div>
+              <div class="update-info">
+                <span><b>Micky</b> received his order of DJI fPV.</span>
+                <small>5 minutes ago</small>
+              </div>
+            </div>
+            <div class="update">
+              <div class="user-info">
+                <img src="https://picsum.photos/id/735/100" alt="" />
+              </div>
+              <div class="update-info">
+                <span
+                  ><b>Scott</b> received his order of DJI Mavic 3 Classic.</span
+                >
+                <small>15 minutes ago</small>
+              </div>
+            </div>
+            <div class="update">
+              <div class="user-info">
+                <img src="https://picsum.photos/id/735/100" alt="" />
+              </div>
+              <div class="update-info">
+                <span
+                  ><b>Davis</b> is waiting for his order of DJI Air 2S.</span
+                >
+                <small>30 minutes ago</small>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------------------ -->
+          <h3 class="sales">sales analytics</h3>
+          <div class="sales-analytics">
+            <div class="sale">
+              <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <span>
+                <h5>online orders</h5>
+                <h5>35%</h5>
+                <h5>3849</h5>
+                <small>last 24 hours</small>
+              </span>
+            </div>
+            <div class="sale">
+              <div class="icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </div>
+              <span>
+                <h5>offline orders</h5>
+                <h5 class="red">-15%</h5>
+                <h5>1049</h5>
+                <small>last 24 hours</small>
+              </span>
+            </div>
+            <div class="sale">
+              <div class="icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </div>
+              <span>
+                <h5>new customers</h5>
+                <h5>25%</h5>
+                <h5>3849</h5>
+                <small>last 24 hours</small>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
